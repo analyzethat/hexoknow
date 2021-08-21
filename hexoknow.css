@@ -1,0 +1,56 @@
+html, body { margin:0; padding:0; overflow:hidden }
+svg { position:fixed; top:10%; left:0; height:90%; width:100% }
+
+/* grid styling */
+use {
+  transition: 0.4s;
+  cursor: pointer;
+  fill: transparent;
+}
+.pod-wrap use:hover {
+  fill: #ffc0cb;
+}
+
+/* other styling */
+svg {
+  flex: 1;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+a {
+  color: #ccc;
+  padding: 10px;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+a:hover {
+  color: #333;
+}
+
+.breadcrumbs {
+  position: fixed;
+  top:5px;
+  left:5px;
+}
+
+.score {
+  position: fixed;
+  top:5px;
+  right:5px;
+}
+
+span {
+  color: rgb(51, 99, 202);
+}
+span:hover {
+  color: #333;
+  cursor: pointer;
+}
